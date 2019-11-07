@@ -1,0 +1,32 @@
+[0m[[0mdebug[0m] [0mForking tests - parallelism = false[0m
+[0m[[0mdebug[0m] [0mCreate a single-thread test executor[0m
+[0m[[0mdebug[0m] [0mRunner for org.scalatest.tools.Framework produced 2 initial tasks for 2 tests.[0m
+[0m[[0mdebug[0m] [0m  Running TaskDef(utils.TransactionCalculatorSpec, sbt.ForkMain$SubclassFingerscan@5e51b80, false, [SuiteSelector])[0m
+[0m[[0minfo[0m] [0m[32mTransactionCalculatorSpec:[0m[0m
+[0m[[0minfo[0m] [0m[32mtransactionAverage[0m[0m
+[0m[[0minfo[0m] [0m[32m- should calculate an average and remove decimals correctly[0m[0m
+[0m[[0minfo[0m] [0m[32mcategoryTotal[0m[0m
+[0m[[0minfo[0m] [0m[32m- should calculate a total per category and remove decimals correctly[0m[0m
+[0m[[0mdebug[0m] [0m    Produced 0 nested tasks and 2 events.[0m
+[0m[[0mdebug[0m] [0m  Running TaskDef(services.TransactionServiceSpec, sbt.ForkMain$SubclassFingerscan@3d134975, false, [SuiteSelector])[0m
+[0m[[0minfo[0m] [0m[32mTransactionServiceSpec:[0m[0m
+[0m[[0minfo[0m] [0m[32mcalculateTotalsPerDay[0m[0m
+[0m[[0minfo[0m] [0m[32m- should correctly calculate totals given 1 day and 1 transaction for 1 account[0m[0m
+[0m[[0minfo[0m] [0m[32m- should correctly calculate totals given 2 days, 2 categories, and 4 transactions for 2 accounts[0m[0m
+[0m[[0minfo[0m] [0m[32mcalculateAverageCategoriesPerAccount[0m[0m
+[0m[[0minfo[0m] [0m[32m- should calculate averages for 3 categories for 1 account[0m[0m
+[0m[[0minfo[0m] [0m[32m- should calculate averages for 1 category for 1 account[0m[0m
+[0m[[0minfo[0m] [0m[32m- should calculate averages for 3 categories for 3 accounts[0m[0m
+[0m[[0minfo[0m] [0m[32m- should calculate averages for 1 category for 3 accounts[0m[0m
+[0m[[0minfo[0m] [0m[32mrollingPeriodCalculations[0m[0m
+[0m[[0minfo[0m] [0m[32m- should identify 1 account, and calculate a 10 day period[0m[0m
+[0m[[0minfo[0m] [0m[32m- should identify 2 accounts, and calculate a 5 day period[0m[0m
+[0m[[0mdebug[0m] [0m    Produced 0 nested tasks and 8 events.[0m
+[0m[[0minfo[0m] [0m[36mRun completed in 958 milliseconds.[0m[0m
+[0m[[0minfo[0m] [0m[36mTotal number of tests run: 10[0m[0m
+[0m[[0minfo[0m] [0m[36mSuites: completed 2, aborted 0[0m[0m
+[0m[[0minfo[0m] [0m[36mTests: succeeded 10, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0minfo[0m] [0m[32mAll tests passed.[0m[0m
+[0m[[0mdebug[0m] [0mPassed tests:[0m
+[0m[[0mdebug[0m] [0m	services.TransactionServiceSpec[0m
+[0m[[0mdebug[0m] [0m	utils.TransactionCalculatorSpec[0m

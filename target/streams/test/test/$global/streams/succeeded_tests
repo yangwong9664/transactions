@@ -1,0 +1,5 @@
+#Successful Tests
+#Wed Nov 06 17:18:52 GMT 2019
+services.FileReaderSpec=1572959097559
+utils.TransactionCalculatorSpec=1573060732155
+services.TransactionServiceSpec=1573060732279
